@@ -68,7 +68,7 @@ metrics=ga:adxClicks
  
 8. Avg. Redirection Time (sec)
 
-*Action Required - fill-up the blank*
+ *Action Required - fill-up the blank*
 
 9. Search Depth
  - **Definition:** The number of pages visited after the search and before the next one or end of session
@@ -199,6 +199,11 @@ metrics=ga:adxClicks
 24. Users
  - **Definition:** Users that have thad at least one session within the selected date range. Includes both new and returning users
  
+
+##Site Usage
+1. Sessions
+ - **Definition:** The total number of Sessions within the date range. A session is the period time a user is actively engaged with your website, app, etc. All usage data (Screen Views, Events, Ecommerce, etc) is associated with a session
+-----------------------------------------------------------------------------------------------------------------
 ### References
 - [Core Reporting Query] https://developers.google.com/analytics/devguides/reporting/core/v3/common-queries#users-and-pageviews-over-time
 - [Core Reporting Query Change Log] https://developers.google.com/analytics/devguides/reporting/core/v3/changelog
