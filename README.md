@@ -203,6 +203,141 @@ metrics=ga:adxClicks
 ##Site Usage
 1. Sessions
  - **Definition:** The total number of Sessions within the date range. A session is the period time a user is actively engaged with your website, app, etc. All usage data (Screen Views, Events, Ecommerce, etc) is associated with a session
+ 
+2. Page Views
+ - **Definition:** The total number of pages viewed. Repeated views of a single page are counted
+ 
+3. Bounce Rate
+ - **Definition:** The percentage of single-page visits (i.e visits in which the person left your site from the entrance page without interacting with the page)
+ 
+4. Avg. Session Duration
+ - **Definition:** The average length of a Session
+ 
+5. % New Sessions
+ - **Definition:** An estimate of percentage of first time visits
+ 
+##Goals
+1. Goal Conversion Rate
+ - **Definition:** The sum of all individual goal conversion rates
+
+2. View more (Goal 1 Conversion Rate)
+ - **Definition:** The percentage of visits that resulted in a conversion to the goal
+ 
+3. Goal 2 (Goal 2 Conversion Rate)
+ - **Definition:** The percentage of visits that resulted in a conversion to the goal
+ 
+4. View more (Goal 1 Value)
+ - **Definition:** The monetary value of conversions to the goal
+ 
+5. Goal 2 (Goal 2 Value)
+ - **Definition:** The monetary value of conversions to the goal
+ 
+6. Per Session Goal Value
+ - **Definition:** The average of a Session (as calculated from Goal Value)
+ 
+##E-commerce
+1. Unique Purchases
+ - **Definition:** The total number of times a specified product (or set of products) was a part of a transaction
+ 
+2. Product Revenue
+ - **Definition:** Revenue from individual product sales
+ 
+3. Quantity
+ - **Definition:** The number of units sold in ecommerce transactions
+ 
+4. Revenue
+ - **Definition:** The total revenue from web ecommerce or in-app transaction, this can include tax and shipping
+ 
+5. Delivery
+ - **Definition:** The total of shipping charges for ecommerce transactions
+ 
+6. Tax 
+ - **Definition:** The total of tax charges for ecommerce transactions
+
+7. Transactions
+ - **Definition:** The total number of completed purchases on your site
+ 
+8. Average QTY
+ - **Definition:** Average number of products sold per transaction
+ 
+9. Average Order Value
+ - **Definition:** Average value of transactions
+ 
+10. Per Session Value
+ - **Definition:** Average revenue per Session. For mobile apps, this is the average for in-app revenue only. Acquisition revenue (like from app purchases within a marketplace like Google Play) is not included
+ 
+ 11. E-commerce Conversion Rate
+  - **Definition:** The percentage of sessions that resulted in an e-commerce transaction
+
+##Content
+1. Total Unique Searches
+ - **Definition:** The number of times people searched your site. Duplicate searches within a single visit are excluded
+ 
+2. Sessions with Search
+ - **Definition:** The number of sessions during which at least one site search occurred
+ 
+3. Total Events
+ - **Definition:** The number of times events occurred
+ 
+4. Unique Dimention Combinations
+ - **Definition:** The number of unique events per category, action or label
+ 
+5. Event Value
+ - **Definition:** The total value of an event or set of events. It is calculated by multiplying the per-event value by the number of times the event occurred
+ 
+6. Search Refinements
+ - **Definition:** The total number of times a refinement(transition) occurs between internal search keywords within a session. For example if the sequence of keywords is: "shoes", "shoes", "pants", "pants", this metric is 1 because the refinement of "shoes" to "pants" occurs once
+ 
+ 7. Time After Search
+  - **Definition:** The time spent on your site from the start of the current search until session ended or another search started
+  
+ 8. Search Depth
+  - **Definition:** The number of pages visited after the seaerch and before the next one or end of session
+  
+ 9. Search Exits
+  - **Definition:** The number of exits from your site that occurred following a result from an internal search
+  
+ 10. Avg. Domain Lookup Time (sec)
+  - **Definition:** The average amount of time (in seconds) spent in DNS lookup for this page
+  
+ 11. Avg. Page Download Time (sec)
+  - **Definition:** The average amount of time (in seconds) to download this page
+ 
+ 12. Avg. Page Load Time (sec)
+  - **Definition:** The average amount of time (in seconds) it takes for pages from the sample set to load, from initiation of the pageview (e.g click on a page link) to load completion in the browser. If you see zero(0) as a value or a small increase in November 2011.
+  
+ 13. Avg. Redirection Time (sec)
+  - **Definition:** The average amount of time (in seconds) spent in redirects before fetching this page. If there are no redirects, the value for this metric is expected to be 0
+  
+ 14. Avg. Server Connection Time (sec)
+  - **Definition:** The average amount of time (in seconds) spent in establishin TCP connection for this page
+  
+ 15. Avg. Server Response Time (sec)
+  - **Definition:** The average amount of time (in seconds) your server takes to respond to a user request, including the network time from user's location to your server
+  
+ 16. Avg. User Timing (sec)
+  - **Definition:** Average time of user timings in seconds
+
+##Click
+1. Impressions
+ - **Definition:** How often your ad is shown. An impression is counted each time your ad is shown on a search result page or other site on the Google Network
+ 
+2. Clicks
+ - **Definition:** The number of times users click on your ad. The *Clicks* metric differes from the *Sessions* metric, which is the number of unique sessions initiated by your users. Because *Clicks* and *Sessions* are distinct metrics, you may see different numbers reported in Analytics
+
+3. Cost
+ - **Definition:** The total amount you paid for your ads
+ 
+4. Click-through Rate (CTR)
+ - **Definition:** Adwords CTR is the percentage of ad impressions that resulted in a click
+ 
+5. Cost-per-click (CPC)
+ - **Definition:**  The average cost you paid for each click on your search ad(s)
+ 
+6. Cost-per-mille-impressions (CPM)
+ - **Definition:** The average cost you paid for each 1000 impressions on content ads
+
+
 -----------------------------------------------------------------------------------------------------------------
 ### References
 - [Core Reporting Query] https://developers.google.com/analytics/devguides/reporting/core/v3/common-queries#users-and-pageviews-over-time
